@@ -18,5 +18,10 @@
     "titleBar.inactiveBackground": "#1a469c99",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#1a469c"
+  "peacock.color": "#1a469c",
+  "cSpell.words": [
+    "agol",
+    "bbox",
+    "TRPC"
+  ]
 }
