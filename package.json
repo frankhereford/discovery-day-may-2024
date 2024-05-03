@@ -10,6 +10,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@esri/arcgis-rest-request": "^4.2.1",
     "@t3-oss/env-nextjs": "^0.10.1",
     "@tanstack/react-query": "^5.25.0",
     "@trpc/client": "next",
