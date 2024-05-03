@@ -1,17 +1,22 @@
-import Link from "next/link";
-
-import { CreatePost } from "~/app/_components/create-post";
-import { api } from "~/trpc/server";
+import React, { useState, useEffect } from "react";
 
 import MapView from "~/app/_components/map";
 
+import { api } from "~/trpc/server";
+
 export default async function Home() {
-  // const hello = await api.post.hello({ text: "from tRPC" });
+  const [locations, setLocations] = useState([]);
+
+  // const locations = await api.agol.get({ bbox: "bbox" });
+
+  console.log(locations);
 
   return (
-    <main className="">
-      <MapView />
-    </main>
+    <>
+      <main className="">
+        <MapView />
+      </main>
+    </>
   );
 }
 

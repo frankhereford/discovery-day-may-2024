@@ -3,7 +3,7 @@
 import Map from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
-export default function MapView() {
+export default async function MapView() {
   const mapboxToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
   return (
     <div className="h-screen w-screen bg-slate-500">
